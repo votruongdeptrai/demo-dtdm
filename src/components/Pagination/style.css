@@ -1,0 +1,39 @@
+.paginationBtn {
+  margin: 20px 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paginationBtn li {
+  margin: 0 20px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.previousBtn, .nextBtn{
+  text-transform: uppercase;
+  color: #2874f0;
+  font-size: 14px;
+  margin: 0 40px;
+  font-weight: 500;
+}
+
+.paginationActive {
+  display: inline-block;
+  padding: 0 8px;
+  cursor: pointer;
+  line-height: 32px;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background: #2874f0;
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+}
+
+.paginationActive a {
+  background-color: transparent !important;
+}

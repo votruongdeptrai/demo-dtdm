@@ -1,0 +1,36 @@
+.activation_error {
+    background-color: red;
+    max-width: 400px;
+    padding: 30px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 38%);
+}
+
+.activation_success {
+    background-color: green;
+    max-width: 400px;
+    padding: 30px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 38%);
+}
+
+.error_name, .success_name {
+    color: #fff;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.error_icon, .success_icon {
+    color: #fff;
+    font-size: 30px;
+}

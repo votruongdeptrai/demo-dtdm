@@ -1,0 +1,226 @@
+.header_search {
+    position: fixed;
+    width: 100%;
+    height: 56px;
+    background-color: #2874f0;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    flex: auto;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 100px;
+    justify-content: space-between;
+}
+
+.header_search .logo {
+    text-align: center;
+    max-width: 160px;
+    max-height: 160px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.header_search .logo img {
+    width: 50%;
+}
+
+.header_input_search {
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex: 40%;
+}
+
+.header_input_search input{
+    padding: 0 16px;
+    border-radius: 2px 0 0 2px;
+    border: 0;
+    outline: 0 none;
+    font-size: 14px;
+    height: 36px;
+    width: 100%;
+    min-width: 400px;
+}
+
+.header_input_search button {
+    border: 1px solid #fff;
+    background-color: #fff;
+    height: 36px;
+    width: 44px;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 4px 12px 0 8px;
+}
+
+.header_input_search i {
+    color: #2874f0;
+    font-size: 16px;
+}
+
+.login_btn_search_submit {
+    color: #2874f0;
+    font-weight: 500;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 3px 40px;
+    border: 1px solid #dbdbdb;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.login_btn_search {
+    position: relative;
+}
+
+.login_btn_search:hover .login_btn_option{
+    display: block;
+}
+
+.login_btn_option::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    position: absolute;
+    top: -10px;
+    left: 108px;
+}
+.login_btn_option::before {
+    content: "";
+    width: 240px;
+    height: 20px;
+    position: absolute;
+    top: -14px;
+    left: 0;
+    background-color: transparent;
+}
+
+.login_btn_option {
+    position: absolute;
+    display: none;
+    color: #212121;
+    font-size: 13px;
+    list-style: none;
+    background-color: #fff;
+    top: 34px;
+    left: -38px;
+    box-shadow: 0 3px 16px 0 rgb(0 0 0 / 11%)
+}
+
+.login_btn_item {
+    padding: 16px 20px;
+    width: 100%;
+    min-width: 240px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.login_btn_item.my_profile:hover, .login_btn_item:not(:first-child):hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.login_btn_item i {
+    margin-right: 10px;
+    color: #2874f0;
+}
+
+/* More */
+
+.seach_header_more {
+    position: relative;
+}
+
+.seach_header_more:hover .more_btn_option{
+    display: block;
+}
+
+.more_btn_option::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    position: absolute;
+    top: -10px;
+    left: 108px;
+}
+.more_btn_option::before {
+    content: "";
+    width: 240px;
+    height: 20px;
+    position: absolute;
+    top: -14px;
+    left: 0;
+    background-color: transparent;
+}
+
+.more_btn_option {
+    position: absolute;
+    display: none;
+    text-align: left;
+    color: #212121;
+    font-size: 13px;
+    list-style: none;
+    background-color: #fff;
+    top: 31px;
+    left: -53px;
+    box-shadow: 0 3px 16px 0 rgb(0 0 0 / 11%)
+}
+
+.more_btn_item {
+    padding: 16px 20px;
+    width: 100%;
+    min-width: 240px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.more_btn_item:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.more_btn_item i {
+    margin-right: 10px;
+    color: #2874f0;
+}
+
+/*  */
+
+
+
+
+.search_header_cart span{
+    position: relative;
+}
+
+.cart_quantity {
+    position: absolute !important;
+    left: -12px;
+    top: -12px;
+    text-align: center;
+    border-radius: 7px;
+    width: 18px;
+    height: 18px;
+    background-color: #ff6161;
+    border: 1px solid #fff;
+    font-weight: 400;
+    color: #f0f0f0;
+    line-height: 16px;
+    font-size: 12px;
+}
+
+.become_seller,
+.seach_header_more,
+.search_header_cart {
+    width: 100%;
+    text-align: center;
+    flex: 18%;
+    cursor: pointer;
+}
+

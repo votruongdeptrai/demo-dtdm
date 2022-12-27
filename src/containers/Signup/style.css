@@ -1,0 +1,128 @@
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 30;
+}
+
+.signup_form {
+    position: relative;
+}
+
+.signup_form > span i {
+    font-size: 30px;
+    color: #fff;
+}
+
+.signup_form > span {
+    position: absolute;
+    cursor: pointer;
+    top: -6;
+    right: -24px;
+}
+
+.signup_container {
+    width: 100%;
+    display: flex;
+    color: #212121;
+    margin: 0 auto;
+    border-radius: 2px;
+    height: 528px;
+    max-width: 750px;
+    min-width: 650px;
+}
+.signup_image {
+    background-image: url(https://res.cloudinary.com/de4aiajqg/image/upload/v1652710961/avatar/login_img_c4a81e_wg7kqo.png);
+    background-position: center 85%;
+    background-repeat: no-repeat;
+    background-color: #2874f0;
+    color: #fff;
+    padding: 40px 33px;
+    font-size: 15px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.signup_image span:first-child {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.signup_content {
+    padding: 4px 35px 16px;
+    width: 60%;
+}
+
+.input_email,
+.input_password
+{
+    position: relative;
+    margin-bottom: 26px;
+    font-size: 16px;
+    color: #212121;
+    pointer-events: auto;
+    width: 100%;
+}
+
+.input_email input,
+.input_password input,
+.input_confirm_password input
+{
+    padding: 8px 10px 10px 0;
+    width: 100%;
+    color: #000;
+    font-size: 14px;
+    background: #fff;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    outline: none;
+}
+
+.input_password input {
+    position: relative;
+}
+
+.input_password span {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    font-size: 14px;
+    color: #2874f0;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.signup_policy {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.signup_policy span span {
+    color: #2874f0;
+}
+
+.signup_btn {
+    background-color: #fb641b;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    padding: 14px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+}
+
+.signup_OTP {
+    background-color: #fff;
+    color: #2874f0;
+    text-align: center;
+    font-size: 14px;
+    padding: 14px 20px;
+    margin: 10px 0 30px 0;
+    cursor: pointer; 
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+}
